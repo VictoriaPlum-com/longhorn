@@ -70,7 +70,7 @@ spec:
           path: /var/run/
       - name: longhorn
         hostPath:
-          path: /var/lib/rancher/longhorn/
+          path: /media/storage
       serviceAccountName: longhorn-service-account
 ---
 apiVersion: v1
