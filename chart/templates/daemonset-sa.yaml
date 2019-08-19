@@ -41,7 +41,7 @@ spec:
         - name: varrun
           mountPath: /var/run/
         - name: longhorn
-          mountPath: /var/lib/rancher/longhorn/
+          mountPath: /media/storage/
           mountPropagation: Bidirectional
         env:
         - name: POD_NAMESPACE
